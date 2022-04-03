@@ -29,8 +29,7 @@ count(lot3)
 count(lot3_greater) + count(lot3_lower)
 
 ## Deliverable 3
-## por que se hace log10 aca?
-## ajuste rango
+## range ajust
 t.test(log10(dt_coil$PSI),mu=log10(1500))
 lot1_test <- subset(dt_coil, Manufacturing_Lot=="Lot1")
 lot2_test <- subset(dt_coil, Manufacturing_Lot=="Lot2")
